@@ -1,0 +1,174 @@
+{
+  "cli_version": "v0.86.2",
+  "run_id": 32463042190,
+  "processed_at": "2026-08-21T08:24:47.276017563Z",
+  "run": {
+    "databaseId": 32463042190,
+    "number": 1,
+    "url": "https://github.com/maciej-sitowski/GHCP-Bootcamp-Agentic-Workflow/actions/runs/32463042190",
+    "status": "in_progress",
+    "conclusion": "",
+    "workflowName": "Weekly Report Status",
+    "workflowPath": ".github/workflows/weekly-report-status.lock.yml",
+    "createdAt": "2026-08-21T08:24:33Z",
+    "startedAt": "2026-08-21T08:24:33Z",
+    "updatedAt": "2026-08-21T08:24:38Z",
+    "event": "workflow_dispatch",
+    "headBranch": "main",
+    "headSha": "bd26ad6a4643b55085f95132d334f1d04c608a53",
+    "displayTitle": "Weekly Report Status",
+    "Duration": 5000000000,
+    "ActionMinutes": 0,
+    "TokenUsage": 0,
+    "Turns": 0,
+    "TurnsAvailable": false,
+    "ErrorCount": 0,
+    "WarningCount": 0,
+    "MissingToolCount": 0,
+    "MissingDataCount": 0,
+    "NoopCount": 0,
+    "EffectiveTokens": 0,
+    "AvgTimeBetweenTurns": 0,
+    "LogsPath": "/workspaces/GHCP-Bootcamp-Agentic-Workflow/.github/aw/logs/run-32463042190"
+  },
+  "metrics": {
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ToolCalls": null,
+    "ToolSequences": null,
+    "AvgTimeBetweenTurns": 0,
+    "MaxTimeBetweenTurns": 0,
+    "MedianTimeBetweenTurns": 0,
+    "StdDevTimeBetweenTurns": 0
+  },
+  "task_domain": {
+    "name": "research",
+    "label": "Research",
+    "reason": "Workflow naming and instructions suggest exploratory analysis or reporting."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "access_analysis": null,
+  "firewall_analysis": null,
+  "redacted_domains_analysis": null,
+  "missing_tools": null,
+  "missing_data": null,
+  "noops": null,
+  "mcp_failures": null,
+  "artifacts_list": null,
+  "job_details": [
+    {
+      "name": "activation",
+      "status": "in_progress",
+      "conclusion": "",
+      "started_at": "2026-08-21T08:24:37Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Generate agentic run info",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Restore daily AIC usage cache",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Restore daily AIC usage cache (artifact fallback)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check daily workflow token guardrail",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check for OAuth tokens",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Checkout .github and .agents folders",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Save agent config folders for base branch restoration",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check workflow lock file",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check compile-agentic version",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Log runtime features",
+          "status": "completed",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Create prompt with built-in context",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Interpolate variables and render templates",
+          "status": "in_progress"
+        },
+        {
+          "name": "Substitute placeholders",
+          "status": "pending"
+        },
+        {
+          "name": "Validate prompt placeholders",
+          "status": "pending"
+        },
+        {
+          "name": "Print prompt",
+          "status": "pending"
+        },
+        {
+          "name": "Stage prompt files for artifact upload",
+          "status": "pending"
+        },
+        {
+          "name": "Upload activation artifact",
+          "status": "pending"
+        },
+        {
+          "name": "Post Checkout .github and .agents folders",
+          "status": "pending"
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "pending"
+        }
+      ],
+      "Duration": 0
+    }
+  ]
+}
