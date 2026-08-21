@@ -1,0 +1,98 @@
+{
+  "cli_version": "v0.86.2",
+  "run_id": 32464317241,
+  "processed_at": "2026-08-21T08:41:23.29216585Z",
+  "run": {
+    "databaseId": 32464317241,
+    "number": 1,
+    "url": "https://github.com/maciej-sitowski/GHCP-Bootcamp-Agentic-Workflow/actions/runs/32464317241",
+    "status": "in_progress",
+    "conclusion": "",
+    "workflowName": "Code Simplifier",
+    "workflowPath": ".github/workflows/code-simplifier.lock.yml",
+    "createdAt": "2026-08-21T08:41:14Z",
+    "startedAt": "2026-08-21T08:41:14Z",
+    "updatedAt": "2026-08-21T08:41:19Z",
+    "event": "workflow_dispatch",
+    "headBranch": "main",
+    "headSha": "20a64da8ff599e05aaeae25bf924cea24dead93d",
+    "displayTitle": "Code Simplifier",
+    "Duration": 5000000000,
+    "ActionMinutes": 0,
+    "TokenUsage": 0,
+    "Turns": 0,
+    "TurnsAvailable": false,
+    "ErrorCount": 0,
+    "WarningCount": 0,
+    "MissingToolCount": 0,
+    "MissingDataCount": 0,
+    "NoopCount": 0,
+    "EffectiveTokens": 0,
+    "AvgTimeBetweenTurns": 0,
+    "LogsPath": "/workspaces/GHCP-Bootcamp-Agentic-Workflow/.github/aw/logs/run-32464317241"
+  },
+  "metrics": {
+    "TokenUsage": 0,
+    "EstimatedCost": 0,
+    "Turns": 0,
+    "ToolCalls": null,
+    "ToolSequences": null,
+    "AvgTimeBetweenTurns": 0,
+    "MaxTimeBetweenTurns": 0,
+    "MedianTimeBetweenTurns": 0,
+    "StdDevTimeBetweenTurns": 0
+  },
+  "task_domain": {
+    "name": "code_fix",
+    "label": "Code Fix",
+    "reason": "The workflow appears oriented toward code changes or pull request review."
+  },
+  "behavior_fingerprint": {
+    "execution_style": "directed",
+    "tool_breadth": "narrow",
+    "actuation_style": "read_only",
+    "resource_profile": "lean",
+    "dispatch_mode": "standalone",
+    "agentic_fraction": 0
+  },
+  "access_analysis": null,
+  "firewall_analysis": null,
+  "redacted_domains_analysis": null,
+  "missing_tools": null,
+  "missing_data": null,
+  "noops": null,
+  "mcp_failures": null,
+  "artifacts_list": null,
+  "job_details": [
+    {
+      "name": "pre_activation",
+      "status": "in_progress",
+      "conclusion": "",
+      "started_at": "2026-08-21T08:41:19Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Setup Scripts",
+          "status": "in_progress"
+        },
+        {
+          "name": "Check team membership for workflow",
+          "status": "pending"
+        },
+        {
+          "name": "Check skip-if-match query",
+          "status": "pending"
+        },
+        {
+          "name": "Post Setup Scripts",
+          "status": "pending"
+        }
+      ],
+      "Duration": 0
+    }
+  ]
+}
